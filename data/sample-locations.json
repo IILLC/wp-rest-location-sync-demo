@@ -1,0 +1,173 @@
+{
+  "RECDATA": [
+    {
+      "CampsiteID": "100001",
+      "FacilityID": "97524",
+      "CampsiteName": "Alder Guard Station",
+      "CampsiteType": "Campground",
+      "TypeOfUse": "Overnight",
+      "Loop": "Main Loop",
+      "CampsiteAccessible": true,
+      "CampsiteLongitude": -106.646667,
+      "CampsiteLatitude": 37.704445,
+      "CreatedDate": "2024-01-01",
+      "LastUpdatedDate": "2026-03-20",
+      "ATTRIBUTES": [
+        {
+          "AttributeID": 1,
+          "AttributeName": "Max Occupancy",
+          "AttributeValue": "6"
+        },
+        {
+          "AttributeID": 2,
+          "AttributeName": "Pets Allowed",
+          "AttributeValue": "Yes"
+        }
+      ],
+      "PERMITTEDEQUIPMENT": [
+        {
+          "EquipmentName": "RV",
+          "MaxLength": 27
+        },
+        {
+          "EquipmentName": "Tent",
+          "MaxLength": 0
+        }
+      ],
+      "ENTITYMEDIA": [
+        {
+          "EntityMediaID": "media-100001",
+          "MediaType": "Image",
+          "EntityID": "100001",
+          "EntityType": "Campsite",
+          "Title": "Alder Guard Station Overview",
+          "Subtitle": "Primary image",
+          "Description": "Demo primary image for the campsite.",
+          "EmbedCode": "",
+          "Height": 800,
+          "Width": 1200,
+          "IsPrimary": true,
+          "IsPreview": true,
+          "IsGallery": true,
+          "URL": "https://example.com/images/alder-guard-station.jpg",
+          "Credits": "Demo Data"
+        }
+      ]
+    },
+    {
+      "CampsiteID": "100002",
+      "FacilityID": "74119",
+      "CampsiteName": "Alvarado Campground",
+      "CampsiteType": "Campground",
+      "TypeOfUse": "Overnight",
+      "Loop": "Creek Loop",
+      "CampsiteAccessible": false,
+      "CampsiteLongitude": -105.563332,
+      "CampsiteLatitude": 38.078888,
+      "CreatedDate": "2024-01-01",
+      "LastUpdatedDate": "2026-03-22",
+      "ATTRIBUTES": [
+        {
+          "AttributeID": 3,
+          "AttributeName": "Check-In Time",
+          "AttributeValue": "2:00 PM"
+        },
+        {
+          "AttributeID": 4,
+          "AttributeName": "Water Hookups",
+          "AttributeValue": "No"
+        }
+      ],
+      "PERMITTEDEQUIPMENT": [
+        {
+          "EquipmentName": "Trailer",
+          "MaxLength": 24
+        }
+      ],
+      "ENTITYMEDIA": [
+        {
+          "EntityMediaID": "media-100002",
+          "MediaType": "Image",
+          "EntityID": "100002",
+          "EntityType": "Campsite",
+          "Title": "Alvarado Campground Overview",
+          "Subtitle": "Primary image",
+          "Description": "Demo primary image for the campsite.",
+          "EmbedCode": "",
+          "Height": 800,
+          "Width": 1200,
+          "IsPrimary": true,
+          "IsPreview": true,
+          "IsGallery": true,
+          "URL": "https://example.com/images/alvarado-campground.jpg",
+          "Credits": "Demo Data"
+        }
+      ]
+    },
+    {
+      "CampsiteID": "100003",
+      "FacilityID": "88001",
+      "CampsiteName": "Blue Spruce Campground",
+      "CampsiteType": "Group Site",
+      "TypeOfUse": "Day and Overnight",
+      "Loop": "North Loop",
+      "CampsiteAccessible": true,
+      "CampsiteLongitude": -105.812345,
+      "CampsiteLatitude": 39.123456,
+      "CreatedDate": "2024-01-01",
+      "LastUpdatedDate": "2026-03-25",
+      "ATTRIBUTES": [
+        {
+          "AttributeID": 5,
+          "AttributeName": "Picnic Table",
+          "AttributeValue": "Yes"
+        },
+        {
+          "AttributeID": 6,
+          "AttributeName": "Fire Ring",
+          "AttributeValue": "Yes"
+        }
+      ],
+      "PERMITTEDEQUIPMENT": [
+        {
+          "EquipmentName": "Tent",
+          "MaxLength": 0
+        },
+        {
+          "EquipmentName": "Van",
+          "MaxLength": 22
+        }
+      ],
+      "ENTITYMEDIA": [
+        {
+          "EntityMediaID": "media-100003",
+          "MediaType": "Image",
+          "EntityID": "100003",
+          "EntityType": "Campsite",
+          "Title": "Blue Spruce Campground Overview",
+          "Subtitle": "Primary image",
+          "Description": "Demo primary image for the campsite.",
+          "EmbedCode": "",
+          "Height": 800,
+          "Width": 1200,
+          "IsPrimary": true,
+          "IsPreview": true,
+          "IsGallery": true,
+          "URL": "https://example.com/images/blue-spruce-campground.jpg",
+          "Credits": "Demo Data"
+        }
+      ]
+    }
+  ],
+  "METADATA": {
+    "RESULTS": {
+      "CURRENT_COUNT": 3,
+      "TOTAL_COUNT": 3
+    },
+    "PARAMETERS": {
+      "QUERY": "",
+      "LIMIT": 3,
+      "OFFSET": 0
+    }
+  }
+}
