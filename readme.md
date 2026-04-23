@@ -12,7 +12,7 @@ It is intentionally **not** a full campground product. It focuses on the sync ar
 
 - external REST API fetches through the WordPress HTTP API
 - response normalization through a dedicated mapper
-- idempotent upserts into WordPress using external IDs
+- upserts into WordPress using external IDs
 - scheduled daily sync with a lightweight stale-data fallback
 - manual backend refresh for reviewer/admin visibility
 - self-contained fixture-driven demo mode plus a remote-ready integration path
@@ -21,7 +21,7 @@ It is intentionally **not** a full campground product. It focuses on the sync ar
 ## What Reviewers Should Notice
 
 - class-based plugin structure with separation between transport, mapping, scheduling, persistence, and admin UI
-- CPT + post meta storage chosen for reviewer readability
+- Custom Post Type + post meta storage chosen for reviewer readability
 - manual sync and scheduled sync both supported without adding heavy configuration
 - stale-data fallback kept intentionally lightweight rather than turning page views into a full worker system
 - bundled JSON fixture makes the repo runnable without credentials while still reflecting a realistic external payload shape
