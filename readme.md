@@ -2,6 +2,11 @@
 
 A sanitized WordPress demo plugin showing a maintainable pattern for syncing structured location data from an external REST API into WordPress.
 
+## Screenshot
+
+/assets/restapi-demo-admin-manual-sync.jpg
+/assets/restapi-demo-short-code-output.jpg
+
 ## Why This Repo Exists
 
 Much of my production work involved integrating WordPress with third-party systems, refreshing stale data, and normalizing remote responses into something editorial teams could rely on. This repo extracts that pattern into a small, reviewable demo plugin.
@@ -113,3 +118,7 @@ add_filter( 'iillc_wprlsd_sample_external_ids', function() {
 ## Naming Convention
 
 This repo uses the `iillc_` / `IILLC_` prefix pattern intentionally. That reflects the same long-term maintainability and conflict-avoidance approach I use in production WordPress work.
+
+## License
+
+MIT
