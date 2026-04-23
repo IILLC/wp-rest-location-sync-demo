@@ -115,6 +115,12 @@ add_filter( 'iillc_wprlsd_sample_external_ids', function() {
 [iillc_location_summary external_id="100001"]
 ```
 
+## Live Demo
+
+A lightweight demonstration instance is available on my portfolio site:
+
+https://troywhitney.me/wp-rest-location-sync-demo/
+
 ## Naming Convention
 
 This repo uses the `iillc_` / `IILLC_` prefix pattern intentionally. That reflects the same long-term maintainability and conflict-avoidance approach I use in production WordPress work.
