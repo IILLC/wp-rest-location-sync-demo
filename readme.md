@@ -4,8 +4,8 @@ A sanitized WordPress demo plugin showing a maintainable pattern for syncing str
 
 ## Screenshot
 
-/assets/restapi-demo-admin-manual-sync.jpg
-/assets/restapi-demo-short-code-output.jpg
+![Admin Screen](assets/restapi-demo-admin-manual-sync.jpg)
+![Short Code Output](assets/restapi-demo-short-code-output.jpg)
 
 ## Why This Repo Exists
 
